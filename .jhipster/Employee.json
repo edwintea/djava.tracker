@@ -1,0 +1,60 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "isAssigned",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "EmployeeType",
+      "fieldValues": "PERMANENT,INTERN,CONTRACT,FREELANCE,PART_TIME",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "position",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "assignment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "user",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "reportsTo",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "organisation",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "sinceDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "isAssignable",
+      "fieldType": "Boolean",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "dto": "mapstruct",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "employee",
+  "databaseType": "mongodb",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "dataAccess": "repository"
+}

@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.trackr"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "trackr",
+    "packageName": "com.trackr",
+    "packageFolder": "com/trackr",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "jwtSecretKey": "ZTRlMjczMzc3MmYzZDNkNjFhZjRjYmUzZDA0NjllOWUzYzllNzIyOWY5YmIyOTQ3ZTNkZjM0NGYwYWRiYTNlZTcyMzQ1ZGVkYzY1NTc3N2Y4Y2U1MjU5NGEwN2YwM2FhYzlhMjViYWUxZmFiMGI2MTgwYjE5OTNkNTgzYTY3MzM=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1677507093708,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "2.0.0-beta.1"
+      }
+    ],
+    "enableTranslation": false,
+    "blueprints": [
+      {
+        "name": "generator-jhipster-quarkus",
+        "version": "2.0.0-beta.1"
+      }
+    ]
+  }
+}
